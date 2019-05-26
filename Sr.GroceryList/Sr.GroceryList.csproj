@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <UserSecretsId>3a99a5b6-8741-4dba-a69c-d16ce869d87b</UserSecretsId>
+    <AssemblyName>Sr.GroceryList</AssemblyName>
+    <RootNamespace>Sr.GroceryList</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper.StrongName" Version="1.50.8-alpha.23.ge7020b2bde" />
+    <PackageReference Include="DapperExtensions.NetStandard" Version="1.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>
